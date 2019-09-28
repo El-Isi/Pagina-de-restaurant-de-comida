@@ -1,0 +1,12 @@
+
+<div style="text-align: center; margin-top: 2%">
+
+  <h2>Su Pedido es el siguiente</h2>
+
+  <div *ngFor="let i of carrito">
+    <p style="font-size: 200%; font-family: 'Satisfy', cursive;">{{i.comidas}} {{i.precio}}</p>
+  </div>
+  <hr>
+  <p style="font-size: 200%; font-family: 'Satisfy', cursive;">Total = {{total}}</p>
+  <button class="btn btn-danger" (click)="pagando()">Pagar</button>
+</div>

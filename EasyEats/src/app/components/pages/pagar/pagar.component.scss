@@ -1,0 +1,24 @@
+h2 {
+  font-family: 'Chivo', sans-serif;
+  font-size: 200%;
+}
+h1{
+  font-family: 'Satisfy', cursive;
+  color: red;
+  font-size: 300%;
+}
+.rotar1
+{
+  -webkit-transform: rotate(-35deg);
+  -moz-transform: rotate(-35deg);
+  -ms-transform: rotate(-35deg);
+  -o-transform: rotate(-35deg);
+  transform: rotate(-35deg);
+
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+
+}

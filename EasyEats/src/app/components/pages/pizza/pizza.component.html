@@ -1,0 +1,19 @@
+<app-navbar></app-navbar>
+
+<div id="list">
+
+  <div class="card carta" style="align-items: center; margin-top: 6%" *ngFor='let piz of pizzas; let indice=index'>
+    <img src="../../../../assets/pizza/0{{indice}}.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{piz.nombre}}</h5>
+      <p class="card-text">${{piz.precio}} c/u</p>
+      <p class="card-text">{{piz.descripcion}}</p>
+    </div>
+    <div class="card-footer">
+      <button class="push_button" style="color: #FFFFFF;" (click)="AddCarrito(piz.nombre, piz.precio)">
+        AÑADIR
+      </button>
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,243 @@
+div{
+  text-align: center;
+  margin-top: 4%;
+}
+h1{
+  font-family: 'Satisfy', cursive;
+  color: red;
+  font-size: 300%;
+}
+h2 {
+  font-family: 'Chivo', sans-serif;
+  font-size: 250%;
+}
+.img1{
+  width: 5%;
+  height: 5%;
+}
+.img2{
+  width: 4%;
+  height: 4%;
+}
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-page {
+  width: 360px;
+  padding: 2% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: blue;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.container {width: 500px; margin: 50px auto}
+
+.open-modal {
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  outline: none;
+  padding: 20px 40px;
+  text-transform: uppercase
+}
+.rotar1
+{
+  -webkit-transform: rotate(-35deg);
+  -moz-transform: rotate(-35deg);
+  -ms-transform: rotate(-35deg);
+  -o-transform: rotate(-35deg);
+  transform: rotate(-35deg);
+
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+
+}
+
+
+
+.credit-card {
+  width            : 360px;
+  height           : 400px;
+  margin           : 60px auto 0;
+  border           : 1px solid #ddd;
+  border-radius    : 6px;
+  background-color : #fff;
+  box-shadow       : 1px 2px 3px 0px rgba(0,0,0,0.10);
+}
+
+.form-header {
+  height        : 60px;
+  padding       : 20px 30px 0;
+  border-bottom : 1px solid #E1E8EE;
+}
+
+.form-body {
+  height  : 340px;
+  padding : 30px 30px 20px;
+}
+
+/* Title */
+
+.title {
+  margin    : 0;
+  color     : #5e6977;
+  font-size : 18px;
+}
+
+/* Common */
+
+.card-number,
+.cvv-input input,
+.month select,
+
+.proceed-btn,
+.year select {
+  height : 42px;
+}
+
+.card-number,
+.month select,
+.year select {
+  font-size   : 14px;
+  font-weight : 100;
+  line-height : 14px;
+}
+
+.card-number,
+.cvv-details,
+.cvv-input input,
+.month select,
+.year select {
+  color   : #86939e;
+  opacity : .7;
+}
+
+/* Card Number */
+
+.card-number {
+  width         : 100%;
+  margin-bottom : 20px;
+  padding-left  : 20px;
+  border        : 2px solid #e1e8ee;
+  border-radius : 6px;
+}
+
+/* Date Field */
+
+.month select,
+.year select {
+  -moz-appearance     : none;
+  -webkit-appearance  : none;
+  width               : 145px;
+  margin-bottom       : 20px;
+  padding-left        : 20px;
+  border              : 2px solid #e1e8ee;
+  border-radius       : 6px;
+}
+
+.month select {
+  float : left;
+}
+
+.year select {
+  float : right;
+}
+
+/* Card Verification Field */
+
+.cvv-input input {
+  width         : 145px;
+  float         : left;
+  padding-left  : 20px;
+  border        : 2px solid #e1e8ee;
+  border-radius : 6px;
+  background    : #fff;
+}
+
+.cvv-details {
+  float         : right;
+  margin-bottom : 20px;
+  font-size     : 12px;
+  font-weight   : 300;
+  line-height   : 16px;
+}
+
+.cvv-details p {
+  margin-top : 6px;
+}
+
+/* Buttons Section */
+
+.proceed-btn {
+  cursor: pointer;
+  width         : 100%;
+  border-color  : transparent;
+  border-radius : 6px;
+  font-size     : 16px;
+}
+
+.proceed-btn {
+  margin-bottom : 10px;
+}
+
+.rotar2
+{
+  -webkit-transform: rotate(12deg);
+  -moz-transform: rotate(12deg);
+  -ms-transform: rotate(12deg);
+  -o-transform: rotate(12deg);
+  transform: rotate(12deg);
+
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+
+}

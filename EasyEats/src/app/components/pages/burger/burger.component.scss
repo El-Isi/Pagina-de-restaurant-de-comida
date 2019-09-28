@@ -1,0 +1,100 @@
+img{
+  width: 42%;
+  height: 32%;
+}
+.push_button{
+  position: relative;
+  width:200px;
+  height:60px;
+  color:#FFF;
+  display:block;
+  text-decoration:none;
+  margin:5px auto;
+  border-radius:5px;
+  border:solid 1px #da2c00;
+  background: red;
+  text-align:center;
+  padding:20px 30px;
+  font-size:25px;
+
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 0.1s;
+
+  -webkit-box-shadow: 0px 9px 0px red;
+  -moz-box-shadow: 0px 9px 0px  red;
+  box-shadow: 0px 9px 0px #ad0900;
+}
+.push_button:active{
+  -webkit-box-shadow: 0px 2px 0px red;
+  -moz-box-shadow: 0px 2px 0px red;
+  box-shadow: 0px 2px 0px red;
+  position:relative;
+  top:7px;
+}
+#list div {
+  animation: fadeIn 1s ease-in both;
+}
+
+#list div:nth-child(1) {
+  animation-delay: 1s;
+}
+#list div:nth-child(2) {
+  animation-delay: 1.3s;
+}
+#list div:nth-child(3) {
+  animation-delay: 1.6s;
+}
+#list div:nth-child(4) {
+  animation-delay: 1.9s;
+}
+#list div:nth-child(5) {
+  animation-delay: 2.2s;
+}
+#list div:nth-child(6) {
+  animation-delay: 2.5s;
+}
+#list div:nth-child(7) {
+  animation-delay: 2.8s;
+}
+#list div:nth-child(8) {
+  animation-delay: 3.1s;
+}
+#list div:nth-child(9) {
+  animation-delay: 3.4s;
+}
+#list div:nth-child(10) {
+  animation-delay: 3.7s;
+}
+#list div:nth-child(11) {
+  animation-delay: 4s;
+}
+#list div:nth-child(12) {
+  animation-delay: 4.3s;
+}
+#list div:nth-child(13) {
+  animation-delay: 4.6s;
+}
+#list div:nth-child(14) {
+  animation-delay: 4.3s;
+}
+#list div:nth-child(15) {
+  animation-delay: 4.6s;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -20%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+.carta{
+  float: left;
+  width: 20rem;
+  height: 36rem;
+  margin-top: 40px;
+  margin-left: 20px;
+}

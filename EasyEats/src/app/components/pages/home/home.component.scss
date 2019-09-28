@@ -1,0 +1,66 @@
+h5{
+	font-family: 'Chivo', sans-serif;
+}
+p{
+	font-family: 'Chivo', sans-serif;
+	font-size: 150%;
+}
+#list div {
+  animation: fadeIn 1s ease-in both;
+}
+
+#list div:nth-child(1) {
+  animation-delay: 1s;
+}
+#list div:nth-child(2) {
+  animation-delay: 1.3s;
+}
+#list div:nth-child(3) {
+  animation-delay: 1.6s;
+}
+#list div:nth-child(4) {
+  animation-delay: 1.9s;
+}
+#list div:nth-child(5) {
+  animation-delay: 2.2s;
+}
+#list div:nth-child(6) {
+  animation-delay: 2.5s;
+}
+#list div:nth-child(7) {
+  animation-delay: 2.8s;
+}
+#list div:nth-child(8) {
+  animation-delay: 3.1s;
+}
+#list div:nth-child(9) {
+  animation-delay: 3.4s;
+}
+#list div:nth-child(10) {
+  animation-delay: 3.7s;
+}
+#list div:nth-child(11) {
+  animation-delay: 4s;
+}
+#list div:nth-child(12) {
+  animation-delay: 4.3s;
+}
+#list div:nth-child(13) {
+  animation-delay: 4.6s;
+}
+#list div:nth-child(14) {
+  animation-delay: 4.3s;
+}
+#list div:nth-child(15) {
+  animation-delay: 4.6s;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -20%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}

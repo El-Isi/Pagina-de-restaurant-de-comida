@@ -1,0 +1,56 @@
+
+<div>
+
+  <h1 class="rotar1" style="margin-bottom: 0; margin-right: 4%">easy </h1>
+  <h2 style="margin-top: -2%; margin-left: 2.3%">
+    <img class="img1" src="../../../../assets/burger.png" alt="" style="margin-right: 40%; margin-top: -1%; float: right">
+    eats
+    <img class="img2 rotar2" src="../../../../assets/soda.png" alt="" style="margin-left: 38%; margin-top: -2.5%; float: left;">
+  </h2>
+
+</div>
+
+
+<div class="login-page w3-container w3-center w3-animate-bottom">
+  <div class="form">
+    <form class="login-form">
+
+      <input type="text" placeholder="Nombre de Usuario" name="username" autocomplete="off" [(ngModel)]="username"/>
+      <input type="password" placeholder="Contraseña" name="password" autocomplete="off" [(ngModel)]="password"/>
+      <input type="email" placeholder="Correo" name="email" autocomplete="off" [(ngModel)]="email"/>
+      <input type="text" placeholder="Nombre" name="nombre" autocomplete="off" [(ngModel)]="nombre"/>
+      <input type="text" placeholder="Apellidos" name="Apellido" autocomplete="off" [(ngModel)]="Apellido"/>
+      <input type="text" placeholder="Domicilio" name="domicilio"autocomplete="off"  [(ngModel)]="domicilio"/>
+
+      <p>METODO DE PAGO</p>
+      <select name="pago" class="btn btn-primary" [(ngModel)]="pago">
+        <option value="Efectivo" class="btn btn-primary show-modal open-modal">Efectivo</option>
+        <option value="Tarjeta" class="btn btn-primary show-modal open-modal">Tarjeta</option>
+        <option value="Paypal" class="btn btn-primary show-modal open-modal">Paypal</option>
+        <option value="Puntos" class="btn btn-primary show-modal open-modal">Puntos</option>
+      </select>
+
+      <button class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" style="margin-top: 5%" (click)="checar()">Registrarme</button>
+
+      <p class="message">¿Ya estas registrado? <a [routerLink]="['/login']">Ingresar</a></p>
+
+    </form>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">{{posts[1]}}</h5>
+      </div>
+      <div class="modal-body">
+        {{posts[0]}}
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal" (click)="OK(posts[2])">OK</button>
+      </div>
+    </div>
+  </div>
+</div>
