@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const server_1 = __importDefault(require("./classes/server"));
 const body_parser_1 = __importDefault(require("body-parser"));
 const database_1 = __importDefault(require("./database/database"));
-const post_1 = __importDefault(require("./routes/post"));
+const post_1 = __importDefault(require("./rotes/post"));
 const cors_1 = __importDefault(require("cors"));
 const server = new server_1.default();
 const database = database_1.default;
